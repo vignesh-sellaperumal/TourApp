@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Sans-Serif;
+}
+body{
+    background: url('../resources/images/cover.png');
+    background-repeat: no-repeat;
+    background-size: 1350px 500px;
+}
+.main-card{
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.para-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+.para-title h1{
+    color: rgb(133, 7, 133);
+    font-weight: 100;
+}
+.para-description{
+    margin: 30px 0px;
+}
+.para-description h4{
+    font-weight: 100;
+}

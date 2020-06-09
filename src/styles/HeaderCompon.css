@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Sans-Serif;
+}
+header{
+    background-color: rgb(133, 7, 133);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-container h1{
+    color:white;
+}

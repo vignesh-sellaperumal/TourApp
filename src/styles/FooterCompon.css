@@ -1,0 +1,18 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Sans-Serif;
+}
+footer{
+    background-color: rgb(133, 7, 133);
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-container h2,h5{
+    color:white;
+}
+.footer-content{
+    margin-left: 100px;
+}

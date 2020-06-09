@@ -1,0 +1,20 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Sans-Serif;
+}
+.card-container{
+    margin:50px 0px 80px 0px;
+    width: 400px;
+}
+.quotes-container h1{
+    margin:5px 0px;
+    font-weight: 100;
+    color: rgb(26, 23, 23);
+}
+.city-container{
+    margin:5px 0px 10px 0px;
+}
+.description-container{
+    margin-bottom: 10px;
+}
