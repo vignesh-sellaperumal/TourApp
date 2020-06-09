@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import image from '../resources/images/pollachi.png';
 import '../styles/HomeCompon.css';
 import HeaderComponent from '../components/HeaderComponent.js';
@@ -16,7 +17,7 @@ class HomeComponent extends React.Component{
         this.setState({
             CityLists:TouristServices.readFromJSONFile()
         });
-        axios.get('http://localhost:5000/users/')
+        axios.fetch('https://foodiespot.herokuapp.com/users/')
         .then(response => {
             const datas = response.data;
             for(let data of datas)
