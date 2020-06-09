@@ -17,7 +17,7 @@ class HomeComponent extends React.Component{
         this.setState({
             CityLists:TouristServices.readFromJSONFile()
         });
-        axios.fetch('https://foodiespot.herokuapp.com/users/')
+        axios.get('https://foodiespot.herokuapp.com/users/')
         .then(response => {
             const datas = response.data;
             for(let data of datas)
