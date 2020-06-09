@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import image from '../resources/images/pollachi.png';
 import '../styles/HomeCompon.css';
 import HeaderComponent from '../components/HeaderComponent.js';
 import FooterComponent from '../components/FooterComponent.js';
